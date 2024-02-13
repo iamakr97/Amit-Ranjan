@@ -1,0 +1,41 @@
+.education-section {
+    display: block;
+    background: rgba(50, 27, 69, 1);
+    background: linear-gradient(rgba(28, 30, 39, 1) 0%, rgba(50, 27, 69, 1) 100%);
+    padding-bottom: 10rem;
+}
+
+.education-heading {
+    text-align: center;
+    color: var(--text_primary);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.education-logo {
+    height: 48px;
+    border-radius: 5px;
+    display: block;
+}
+
+.education-logo-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.education-desc {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text_secondary);
+    margin-bottom: 1rem;
+}
+
+.timeline-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.education-card {
+    border: 2px solid red;
+}

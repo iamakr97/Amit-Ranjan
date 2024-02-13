@@ -1,0 +1,159 @@
+.Hero {
+    background-color: var(--bgLight);
+}
+
+.hero-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    color: var(--text_primary);
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.Hero-left {
+    width: 60%;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+.hero-position {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.position-span {
+    color: var(--primary);
+}
+
+.about-me-desc {
+    color: var(--text_secondary);
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 1rem 0;
+    line-height: 32px;
+}
+
+.resume-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    color: var(--text_primary);
+    margin: 1rem 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out !important;
+    background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
+}
+
+.resume-btn:hover {
+    transform: scale(1.06);
+    transition: all 0.2s ease;
+}
+
+.hero-right {
+    display: block;
+    position: relative;
+}
+
+.hero-image {
+    border-radius: 50%;
+    height: 80%;
+    margin: 0 auto;
+    border: 2px solid green;
+    border: 2px solid var(--primary);
+}
+
+.heroImage-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+@media (max-width: 1100px) {
+    .hero-container {
+        width: 90%;
+    }
+
+    .hero-right {
+        width: 40%;
+    }
+
+    .hero-heading {
+        font-size: 2.1rem;
+
+    }
+
+    .hero-position {
+        font-size: 1.3rem;
+
+    }
+
+    .about-me-desc {
+        font-size: 1rem;
+        line-height: 25px;
+
+    }
+
+    .hero-image {
+        display: block;
+        position: relative;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .Hero-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-heading {
+        text-align: center;
+    }
+
+    .hero-position {
+        text-align: center;
+    }
+
+    .about-me-desc {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-image {
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .hero-right {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+}

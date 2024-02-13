@@ -1,0 +1,25 @@
+.heroAnimation-bg {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+@media (max-width: 1100px) {
+    .heroAnimation-bg{
+        height: 500px;
+        width: 100%;
+    }
+}
+@media (max-width: 900px) {
+    .heroAnimation-bg{
+        height: 400px;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+
+    .heroAnimation-bg{
+        position: relative;
+        height: 350px;
+        width: 100%;
+    }
+}
