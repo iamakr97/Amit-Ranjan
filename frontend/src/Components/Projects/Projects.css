@@ -37,6 +37,9 @@
     border-radius: 10px;
     background-color: var(--card);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-image {
@@ -60,13 +63,13 @@
 }
 
 .project-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text_primary);
 }
 
 .project-desc {
     color: var(--text_secondary);
-    font-size: 1.05rem;
+    font-size: 1rem;
     text-align: left;
 }
 

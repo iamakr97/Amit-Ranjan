@@ -18,9 +18,9 @@ function Projects() {
                 }
               </div>
               <h3 className='project-title'>{pro.title}</h3>
-              {(pro.description).length > 100
+              {(pro.description).length > 200
                 ?
-                <p className='project-desc'>{(pro.description).substr(0, 99)}</p>
+                <p className='project-desc'>{(pro.description).substr(0, 200)}...</p>
                 :
                 <p className='project-desc'>{pro.description}</p>
               }
