@@ -19,7 +19,7 @@ function Hero() {
               strings={[" Programmer",
                 " Full Stack Developer",
                 " MERN stack Developer",
-                " JAVA developer"
+                // " JAVA developer"
               ]}
               typeSpeed={80}
               loop

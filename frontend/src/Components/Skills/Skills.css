@@ -2,7 +2,7 @@
     background: rgba(50, 27, 69, 1);
     background: linear-gradient(rgba(28, 30, 39, 1) 0%, rgba(50, 27, 69, 1) 100%);
     color: var(--text_primary);
-    padding: 1rem 0 15rem 0;
+    padding: 1rem 0 25rem 0;
 }
 
 .skill-container {
