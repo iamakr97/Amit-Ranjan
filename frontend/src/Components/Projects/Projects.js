@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div id='projects'>
       <h2>Projects</h2>
-      <p className='porject-head-desc'>I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</p>
+      <p className='porject-head-desc'>I have worked on some projects. Here are some of my projects.</p>
       <div className="project-container">
         {
           project.map((pro) => {
