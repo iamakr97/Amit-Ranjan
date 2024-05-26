@@ -14,7 +14,6 @@ export const project = [
             "RazorPay"
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/UrbanSole",
         Live_Link: "https://urban-sole-one.vercel.app/"
     },
@@ -33,7 +32,6 @@ export const project = [
             "Node js",
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/SoutChat",
         Live_Link: "https://sout-chat.vercel.app"
     },
@@ -51,7 +49,6 @@ export const project = [
             "Node js"
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/Orange_Notes",
         Live_Link: "https://orange-notes-dusky.vercel.app"
     },
@@ -67,7 +64,6 @@ export const project = [
             "Wheather-API"
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/weather-app",
         Live_Link: "https://weather-app97.vercel.app/"
     },
@@ -84,7 +80,6 @@ export const project = [
             "Game"
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/tic-tac-toe",
         Live_Link: "https://tic-tac-toe-eight-flame.vercel.app"
     },
@@ -100,7 +95,6 @@ export const project = [
             "Password-Generator"
         ],
         category: "Web App",
-        readMore: "",
         github: "https://github.com/iamakr97/password-generator",
         Live_Link: "https://password-generator-hazel-eight.vercel.app"
     }

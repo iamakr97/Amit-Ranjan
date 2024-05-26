@@ -26,14 +26,12 @@ function Projects() {
               }
               <div className='project-btn-container'>
                 <a href={pro.Live_Link} target='_blank'>
-                  <button className='project-btn live-btn'>Live Link</button>
+                  <button className='project-btn live-btn'>View Live App</button>
                 </a>
                 <a href={pro.github} target='_blank'>
-                  <button className='project-btn git-btn'>Code Link</button>
+                  <button className='project-btn git-btn'>View Code </button>
                 </a>
-                <a href={pro.readMore} target='_blank'>
-                  <button className='project-btn git-btn'>Read More</button>
-                </a>
+                
               </div>
             </div>
           })
