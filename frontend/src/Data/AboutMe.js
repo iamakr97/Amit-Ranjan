@@ -8,3 +8,7 @@ export const heroImage = {
 export const resumeLink = {
     resume: "https://drive.google.com/file/d/1XnvJvsrpDoe0fB5pqkkybMPShWE5RONl/view?usp=sharing"
 }
+
+export const linkedInLink = {
+    linkedIn : "https://www.linkedin.com/in/iamakr97"
+}

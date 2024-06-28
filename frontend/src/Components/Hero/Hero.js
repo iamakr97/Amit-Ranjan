@@ -5,6 +5,7 @@ import { aboutMe } from '../../Data/AboutMe';
 import { heroImage } from '../../Data/AboutMe';
 import { resumeLink } from '../../Data/AboutMe';
 import HeroBgAnimation from './HeroBgAnimation';
+import { linkedInLink } from '../../Data/AboutMe';
 
 function Hero() {
 
@@ -31,9 +32,14 @@ function Hero() {
           <p className='about-me-desc'>
             {aboutMe.info}
           </p>
-          <a href={resumeLink.resume} target='_blank'>
-            <button className='resume-btn'>Check Resume</button>
-          </a>
+          <div>
+            <a href={resumeLink.resume} target='_blank'>
+              <button className='resume-btn'>Check Resume</button>
+            </a>
+            <a href={linkedInLink.linkedIn} target='_blank'>
+              <button className='linkedin-btn'>LinkedIn</button>
+            </a>
+          </div>
         </div>
         <div className="hero-right">
           <div className='heroImage-container'>
