@@ -1,6 +1,6 @@
 # Portfolio : Amit Kumar Ranjan
 
-## Live Link :  https://portfolio-smoky-beta-13.vercel.app
+## Live Link :  https://amit-ranjan.vercel.app
 <img width="934" alt="Screenshot 2024-02-14 233613" src="https://github.com/iamakr97/portfolio/assets/122173165/a6f31990-df7b-4e56-8b7b-7e28d11c26d9">
 <img width="907" alt="Screenshot 2024-02-14 233640" src="https://github.com/iamakr97/portfolio/assets/122173165/71a05cd3-7131-4051-8f22-cfa5f7e2471c">
 
