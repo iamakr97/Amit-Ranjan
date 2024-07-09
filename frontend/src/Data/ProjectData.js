@@ -18,7 +18,7 @@ export const project = [
         ],
         category: "Web App",
         github: "https://github.com/iamakr97/UrbanSole",
-        Live_Link: "https://urban-sole-one.vercel.app",
+        Live_Link: "https://urbansole.vercel.app/",
         modalDescription: [
             "Developed a cutting-edge online footwear marketplace using the MERN stack (React.js, Node.js, Express.js, MongoDB) to provide a seamless shopping experience",
             "Implemented secure online payment integration with Razorpay, ensuring reliable and safe transactions",
@@ -73,7 +73,7 @@ export const project = [
         ],
         category: "Web App",
         github: "https://github.com/iamakr97/Orange_Notes",
-        Live_Link: "https://orange-notes-dusky.vercel.app",
+        Live_Link: "https://orange-note.vercel.app",
         modalDescription: [
             "Developed Orange Notes, a dynamic MERN stack web app for seamless note-taking with secure user authentication",
             "Implemented CRUD operations and RESTful APIs for efficient note management using MongoDB, Express.js, and Node.js",
