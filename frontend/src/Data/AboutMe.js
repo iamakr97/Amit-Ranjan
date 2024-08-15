@@ -12,3 +12,7 @@ export const resumeLink = {
 export const linkedInLink = {
     linkedIn : "https://www.linkedin.com/in/iamakr97"
 }
+
+export const gifImage = {
+    myGif : ""
+}
