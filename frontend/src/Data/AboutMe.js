@@ -6,7 +6,7 @@ export const heroImage = {
 }
 
 export const resumeLink = {
-    resume: "https://drive.google.com/file/d/1XnvJvsrpDoe0fB5pqkkybMPShWE5RONl/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1XwP9SZ9Q_fvIALZiu59qYpTD4r9Lfar_/view?usp=sharing"
 }
 
 export const linkedInLink = {
