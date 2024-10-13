@@ -13,6 +13,10 @@ export const linkedInLink = {
     linkedIn : "https://www.linkedin.com/in/iamakr97"
 }
 
+export const twitterLink = {
+    twitter : "https://x.com/iamakr97"
+}
+
 export const gifImage = {
     myGif : ""
 }
