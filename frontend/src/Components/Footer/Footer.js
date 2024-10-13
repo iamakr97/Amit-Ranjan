@@ -3,7 +3,6 @@ import './Footer.css';
 import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa6";
-
 function Footer() {
     return (
         <div className='footer'>
@@ -18,7 +17,7 @@ function Footer() {
                 <div className="footer-social-container">
                     <a href="https://www.linkedin.com/in/iamakr97" target='_blank'><FaLinkedin /></a>
                     <a href="" target='_blank'><FaInstagram /></a>
-                    <a href="" target='_blank'><FaTwitter /></a>
+                    <a href="https://x.com/iamakr97" target='_blank'><FaTwitter /></a>
                     <a href="" target='_blank'><FaSquareFacebook /></a>
                 </div>
                 <p className='footer-copyright'>
